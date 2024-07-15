@@ -99,3 +99,47 @@ ul li{
     border-radius: 5px;
     background-color: gray;
 }
+/* 2nd part of website starts */
+/* of class name information */
+.information{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 1000px;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.information.textss{
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+    font-weight: 1000;
+}
+.information.boxes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    justify-items: center;
+    align-items: center;
+
+}
+.outer{
+    margin-left: auto ;
+    margin-right: auto ;
+    color: #1F2937;
+}
+.box{
+    border: solid #3882f6 5px;
+    border-radius: 15px;
+    height: 150px;
+    width : 80%;
+    margin-bottom: 10px;
+    
+}
