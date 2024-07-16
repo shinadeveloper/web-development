@@ -171,3 +171,40 @@ ul li{
 
 /* 3rd part of website starting */
 
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-self: center;
+    align-self: center; */
+    color: #1f2937;
+    background-color: #efe7eb;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    
+    
+}
+.actualquote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    max-width: 1000px;
+}
+.quoteby{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: flex-end;
+    
+    max-width: 950px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #1F2937;
+}
